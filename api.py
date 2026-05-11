@@ -19,7 +19,6 @@ app = FastAPI(
 )
 
 # ── Model config ───────────────────────────────────────────────────────────
-# Change this to your HuggingFace repo name after training
 HF_REPO_NAME = "hsnx000/bert-sentiment-sst2"
 device = "cuda" if torch.cuda.is_available() else "cpu"
 
